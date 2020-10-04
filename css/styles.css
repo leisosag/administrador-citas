@@ -46,7 +46,11 @@ header h1 {
 textarea {
     height: 200px!important;
 }
-
 svg {
   width: 21px;
+}
+.titulo-cita {
+  background-color: #E0116E;
+  padding: 1rem;
+  color: #fff;
 }

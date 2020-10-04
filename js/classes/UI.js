@@ -31,9 +31,9 @@ class UI {
             divCita.dataset.id = id;
 
             // scripting de los elementos de la cita
-            const mascotaParrafo = document.createElement('h2');
-            mascotaParrafo.classList.add('card-title', 'font-weight-bolder');
-            mascotaParrafo.textContent = mascota;
+            const mascotaParrafo = document.createElement('h3');
+            mascotaParrafo.classList.add('card-title', 'font-weight-bolder', 'titulo-cita');
+            mascotaParrafo.innerHTML = `<i class="fas fa-paw mr-2"></i>${mascota}`
 
             const propietarioParrafo = document.createElement('p');
             propietarioParrafo.innerHTML = `
